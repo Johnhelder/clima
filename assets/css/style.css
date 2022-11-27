@@ -70,3 +70,8 @@ h1 {
   display: flex;
   width: 100%;
 }
+
+.info .temp {
+  flex: 1;
+  text-align: center;
+}
