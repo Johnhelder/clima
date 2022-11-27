@@ -75,3 +75,28 @@ h1 {
   flex: 1;
   text-align: center;
 }
+
+.info .vento {
+  flex: 1;
+  text-align: center;
+}
+.tempTitulo,
+.ventoTitulo {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.tempInfo,
+.ventoInfo {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+}
+.tempInfo sup {
+  font-size: 15px;
+  font-weight: normal;
+}
+.ventoInfo span {
+  font-size: 15px;
+  font-weight: normal;
+}
