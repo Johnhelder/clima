@@ -43,3 +43,7 @@ h1 {
   margin-left: 10px;
   cursor: pointer;
 }
+
+.busca button:hover {
+  background-color: #444;
+}
