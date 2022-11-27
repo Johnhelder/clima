@@ -3,6 +3,9 @@ document.querySelector('.busca').addEventListener('submit', (event) =>{
 
   let input = document.querySelector('#searchInput').value;
  
+  if(input !== ''){
+    mostrarAviso('Carregando..');
+  }
 })
 
 function mostrarAviso(){
