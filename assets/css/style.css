@@ -118,3 +118,8 @@ h1 {
   background-color: #FFF;
   transform-origin: left;
 }
+
+.aviso {
+  color: #FFF;
+  padding-top: 20px;
+}
