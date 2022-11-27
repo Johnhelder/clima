@@ -18,3 +18,8 @@ h1 {
   color: #FFF;
   margin: 20px 0;
 }
+
+.busca {
+  display: flex;
+  width: 300px;
+}
