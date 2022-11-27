@@ -111,3 +111,10 @@ h1 {
   padding-left: 25px;
   padding-top: 25px;
 }
+
+.ventoPonto {
+  width: 15px;
+  height: 1px;
+  background-color: #FFF;
+  transform-origin: left;
+}
