@@ -4,3 +4,7 @@ document.querySelector('.busca').addEventListener('submit', (event) =>{
   let input = document.querySelector('#searchInput').value;
  
 })
+
+function mostrarAviso(){
+  document.querySelector('.aviso').innerHTML = 'msg';
+}
