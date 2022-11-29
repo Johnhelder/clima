@@ -11,13 +11,19 @@ document.querySelector('.busca').addEventListener('submit', async(event) =>{
     let json = await results.json();
 
     if(json.cod === 200){
-
+      mostraInfo({
+        
+      });
     }else{
       mostrarAviso('Não econtramos esta localização');
     }
   }
 })
 
-function mostrarAviso(){
+function mostraInfo(json){
+
+}
+
+function mostrarAviso(msg){
   document.querySelector('.aviso').innerHTML = 'msg';
 }
