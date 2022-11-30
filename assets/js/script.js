@@ -26,7 +26,9 @@ document.querySelector('.busca').addEventListener('submit', async(event) =>{
 })
 
 function mostraInfo(json){
+  mostrarAviso('');
 
+  document.querySelector('.resultado').style.display = 'block';
 }
 
 function mostrarAviso(msg){
