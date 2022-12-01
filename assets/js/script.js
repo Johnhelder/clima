@@ -29,6 +29,8 @@ function mostraInfo(json){
   mostrarAviso('');
 
   document.querySelector('.resultado').style.display = 'block';
+  
+  document.querySelector('.titulo').innerHTML = `${json.name}, ${json.country}`;
 }
 
 function mostrarAviso(msg){
